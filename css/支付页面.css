@@ -1,0 +1,108 @@
+@charset="UTF-8";
+html {font-size: 62.5%;}
+* {margin: 0;}
+body {width: 100%; font-size: 1.4rem; background-color: #EFF0F1;}
+.tainter {width: 1200px;margin: 0 auto;}
+.clearfix {overflow: hidden;}	
+ul {list-style: none;padding: 0; }
+.header {background-color: #fff; -webkit-box-shadow: 0 0 5px #000;
+box-shadow: 0 0 5px #000;}
+.top {height: 60px; line-height: 60px; }
+
+.top ul li {float: left;}
+.top div { float: left;}
+.top  div a {
+	background: url(../images/支付/login.png);
+background-position: 0 15px;
+background-repeat: no-repeat;
+height: 60px;
+width: 88px;
+display: block;
+text-indent: -9999px;
+}
+
+.top ul li:nth-of-type(2) {float: right;}
+.top li a {margin-left: 20px;margin-right: 20px;}
+.nav {padding-top: 40px;padding-bottom: 40px;}
+.nav .nav_left { 
+
+float: left;
+margin-left: 150px;
+ }
+.nav_right { 
+	float: right; 
+	font-size: 2.6rem; 
+	font-weight: bolder;
+color: #f40;
+}
+.main {
+	 height: 430px;
+	 border-top: 4px solid #ccc;
+   border-bottom: 4px solid #ccc;
+   background: #fff;
+   padding: 20px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.main ul {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+padding: 0 10px;
+	height: 65px;
+	line-height: 50px;
+	width: 1160px; 
+	overflow: hidden; 
+}
+.main ul li  {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.main  ul li:nth-of-type(4) {
+	float: right;
+}
+.main li a {color: red; text-decoration: none;font-weight: bolder;}
+.main ul:nth-of-type(1)  {
+	background: url(../images/支付/p1.png);
+background-repeat: no-repeat;
+background-position: 55px 18px;
+	border: 3px solid #85A1D4;
+}
+.main ul:nth-of-type(2) {
+		background: url(../images/支付/p2.png);
+background-repeat: no-repeat;
+background-position: 55px 18px;
+border-bottom: 1px solid #ccc;
+}
+.main ul li span:nth-of-type(1) {
+ background: #29AB91;
+ color: #fff;
+ height: 22px;
+ width: 30px;
+ margin-right: 20px;
+}
+.main p {
+	margin: 20px auto;
+}
+.main p:nth-of-type(1)  {
+	margin-bottom: 30px;
+}
+.main p span {
+	color: #00AAEE;
+	padding: 10px 20px;
+	height: 20px;
+width: 300px;
+  border: 1px solid #ccc;
+}
+  .main p i {color: #26BC00; margin-right: 10px;}
+   .main p input {outline: none; margin-right: 10px;}
+ .main p:nth-of-type(5) {color: #aaa;}
+.main .buy {
+	background: #00AAEE;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

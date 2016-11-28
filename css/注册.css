@@ -1,0 +1,143 @@
+@charset="UTF-8";
+* {margin: 0;}
+
+body {
+	width: 100%; 
+	background: url(../首页images/b1.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	 color: #000;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a:hover {
+	color: #DA001D;
+}
+
+.header {
+	height: 80px; 
+	-webkit-box-shadow: 0 0 15px #8A8A8A;
+	box-shadow: 0 0 15px #8A8A8A;
+	margin: 20px auto;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.login h1 {
+	float: left;
+	width: 100px;
+	height: 40px;
+}   
+
+.login h1 a{
+	display: block;
+	text-indent: -9999px;
+	width: 140px;
+	height: 80px;
+  background: url(../images/首页images/login.png);
+  background-repeat: no-repeat;
+  background-position: 50px 20px;
+  padding-right: 20px;
+}
+
+.login p {
+	height: 80px;
+	line-height: 80px;
+	float: left;
+	margin-left: 80px;
+}
+
+.have {
+	float: right;
+	height: 80px;
+	line-height: 80px;
+	color: #ccc;
+	margin-right: 20px;
+}
+
+.nav {
+	border-radius: 5px;
+	overflow: hidden;
+	width: 500px;
+	height: 600px;
+	background: #F4F5F3;
+	margin: 10px auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 40px 100px;
+}
+
+.nav input {
+	width: 260px;
+	height: 30px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: none;
+	margin-top: 20px;
+     outline: 0;
+}
+
+.nav i {
+	float: left;
+ width: 40px;
+ margin-top: 20px;
+ height: 32px;
+ line-height: 32px;
+ text-align: center;
+ 	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+ background: #fff;
+}
+
+#code{
+ width: 150px;
+ 	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px; 
+}
+
+.nav .checkbox {
+	width: 13px;
+	height: 12px;
+	margin-bottom: 60px;
+}
+
+.nav p {  
+	font-size: 12px;
+}
+
+.nav p:nth-of-type(2) span:nth-of-type(1) {
+	border-radius:15px;
+	background-color: #8A8A8A; 
+	padding: 10px 20px;
+	color: #fff;
+	margin-left: 22px;
+}
+
+button {
+	border-radius:15px;
+	background-color: #DA001D; 
+	border: none;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+  cursor: pointer;
+}
+
+.nav p:nth-of-type(6) a {
+	margin-left: 50px;
+}
+
+span a {
+	color: #fff;
+}
+

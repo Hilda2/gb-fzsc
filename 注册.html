@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/注册.css">
+	<script src="js/jQuery.js"></script>
+</head>
+<body>
+	
+<div class="header container">
+		<div class="login">
+			<h1><a href="#">潮流阁</a></h1>
+			<p>  |&nbsp; 	欢 迎 注 册</p>
+			<p></p>
+		</div>
+	<div class="have">	已有账号 <a href="#">请登录</a>
+	</div>
+</div>
+
+	<div class="main">
+		<div class="nav">
+<h1>快速注册</h1>
+ 
+<p>
+	<i class="fa fa-phone" aria-hidden="true"></i><input type="text" id="account" name="account" value="" placeholder="请输入手机号" verify="mobiletel:!" msg="请输入正确的手机号码:请输入您的手机号">
+</p>
+
+<p>
+	<i class="fa fa-check-square-o" aria-hidden="true"></i><input type="text" id="code" name="code" placeholder="短信验证码" verify="number:!" msg="验证码格式不正确:请输入验证码"><span class="again"><a href="#">重新发送</a></span>
+</p>
+<p>
+	<i class="fa fa-lock" aria-hidden="true"></i><input type="password" id="password" name="password" placeholder="请输入密码" verify="numandstr:!" msg="密码格式不正确:请输入密码">
+</p>
+<p>
+	<i class="fa fa-lock" aria-hidden="true"></i><input type="password" id="re_password" name="re_password" placeholder="请再次输入密码" verify="numandstr:!" msg="密码格式不正确:请确认密码">
+</p>
+<p>
+	<i class="fa fa-envelope-o" aria-hidden="true"></i>
+	<input id="email" name="email" type="text" placeholder="请输入电子邮箱（选填）" verify="email:" msg="邮箱格式不正确">
+</p>
+<p>
+	<input class="checkbox" type="checkbox" name="protocol" id="protocol" checked="checked"><span>已阅读并同意注册 用户协议</span><a href="#">账号登录></a>
+</p>
+ <button class="achive">完成注册</button>
+		</div>
+	</div>
+
+</body>
+</html>
